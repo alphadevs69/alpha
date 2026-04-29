@@ -1,0 +1,67 @@
+@echo off
+setlocal enabledelayedexpansion
+
+REM =========================================
+REM MODE:
+REM 0 = AUTO (ikuti logika otomatis)
+REM 1 = MANUAL (pakai ROT_MANUAL)
+REM =========================================
+set MODE=0
+
+REM === ISI JIKA MODE=1 ===
+set ROT_MANUAL=0
+REM (pilihan: 0 / 90 / 180 / 270)
+
+REM =========================================
+set "input_dir=%~dp0input"
+set "output_dir=%~dp0output"
+
+if not exist "%output_dir%" mkdir "%output_dir%"
+
+echo ==============================
+echo START PROCESS
+echo ==============================
+
+for %%f in ("%input_dir%*.mp4") do (
+
+echo.
+echo Processing: %%~nxf
+
+REM === DETECT ROTATION ===
+set "rot="
+for /f "tokens=*" %%r in ('ffprobe -v error -select_streams v:0 -show_entries stream_tags^=rotate -of default^=nokey^=1:noprint_wrappers^=1 "%%f"') do (
+    set "rot=%%r"
+)
+
+if "!rot!"=="" set "rot=0"
+
+echo Detected rotation: !rot!
+
+REM === PILIH MODE ===
+if "%MODE%"=="1" (
+    set "newrot=%ROT_MANUAL%"
+    echo MODE MANUAL -> set rotation = !newrot!
+) else (
+
+    REM === AUTO FIX LOGIC ===
+    if "!rot!"=="90" (
+        set "newrot=270"
+    ) else if "!rot!"=="270" (
+        set "newrot=90"
+    ) else (
+        set "newrot=0"
+    )
+
+    echo MODE AUTO -> set rotation = !newrot!
+)
+
+REM === PROCESS ===
+ffmpeg -i "%%f" -metadata:s:v rotate=!newrot! -codec copy "%output_dir%\%%~nxf"
+
+)
+
+echo.
+echo ==============================
+echo DONE
+echo ==============================
+pause
