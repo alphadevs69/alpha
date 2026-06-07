@@ -1,0 +1,12 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:3
+#EXT-X-MEDIA-SEQUENCE:26917
+#EXTINF:2.920,
+http://baka.semar.my.id:8000/play/a01m/203008590_e963.ts
+#EXTINF:2.920,
+http://baka.semar.my.id:8000/play/a01m/203008593_93a4.ts
+#EXTINF:2.980,
+http://baka.semar.my.id:8000/play/a01m/203008595_9281.ts
+#EXTINF:2.900,
+http://baka.semar.my.id:8000/play/a01m/203008598_b942.ts
