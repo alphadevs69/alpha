@@ -1,6 +1,6 @@
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/5eZbPa2.png",TNT 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"192b1115da041585c77200128549efa1":"634e10efe4abbb14be400a3ccbac0258"}
+#KODIPROP:inputstream.adaptive.license_key={"f288380ca4cef9ad3f27a92a08e9bb8b":"9f18d26291d9230833501f7f822f6875"}
 #EXTVLCOPT:http-referrer=https://webiptv.site/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a129aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd
+https://qw.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd
