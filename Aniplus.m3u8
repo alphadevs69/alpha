@@ -2,7 +2,7 @@
 #EXT-X-VERSION:4
 #EXT-X-INDEPENDENT-SEGMENTS
 
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_0",NAME="Korean",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="ko",URI="https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8e090841eb80e7925af014fbd/019dd8e1306f1eb80e7925af014fc0/vc1_audio_ko_ko.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODE3OTExNzYsInBhdGgiOiIvbzIifQ.206A7jXZbT-RS_n9wVH7r6pRXMW-Xcxq1mkBe7iGed4"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_0",NAME="Korean",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="ko",URI="https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8e090841eb80e7925af014fbd/019dd8e1306f1eb80e7925af014fc0/vc1_audio_ko_ko.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODE4MzExMDEsInBhdGgiOiIvbzIifQ.wFFWLikN9EG-OPX1kLTGkkUyEsjHn95NwsgR-d-RVV4"
 
 #EXT-X-STREAM-INF:BANDWIDTH=2192000,CODECS="avc1.64001f,mp4a.40.2",RESOLUTION=1280x720,AUDIO="audio_0"
-https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8e090841eb80e7925af014fbd/019dd8e1306f1eb80e7925af014fc0/vc1_video_stream3.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODE3OTExNzYsInBhdGgiOiIvbzIifQ.206A7jXZbT-RS_n9wVH7r6pRXMW-Xcxq1mkBe7iGed4
+https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8e090841eb80e7925af014fbd/019dd8e1306f1eb80e7925af014fc0/vc1_video_stream3.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODE4MzExMDEsInBhdGgiOiIvbzIifQ.wFFWLikN9EG-OPX1kLTGkkUyEsjHn95NwsgR-d-RVV4
